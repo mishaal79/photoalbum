@@ -1,0 +1,37 @@
+/*Filename: styles.css
+author: mishal
+create date:16/03/2019
+last modified :16/03/2019
+description : This CSS links to upload.php
+*/
+/* Font for the webpage */
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+h1,h2,h3,p{
+    font-family: "Roboto","Calibri light",sans-serif;
+    color: #233237;
+}
+
+/* background colour of webpage */
+body {
+  background-color: #EFEFEF;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+form {
+  border-style: groove;
+  border-color: #CAEBF2
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
